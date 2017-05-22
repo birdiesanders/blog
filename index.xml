@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://davenull.us/page/about/</link>
+      <pubDate>Mon, 22 May 2017 18:04:19 +0000</pubDate>
+      <author>dave@davenull.us (David Bird)</author>
+      <guid>https://davenull.us/page/about/</guid>
+      <description>Hello, I am David Bird. I am a JavaScript hacker, Linux abuser, and lover of all things FOSS.</description>
+    </item>
+    
+    <item>
       <title>Spun</title>
       <link>https://davenull.us/post/spun/</link>
       <pubDate>Mon, 22 May 2017 18:04:19 +0000</pubDate>
