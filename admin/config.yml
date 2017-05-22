@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: birdiesanders/static # Path to your Github repository
+  repo: birdiesanders/blog-builder # Path to your Github repository
   branch: master # Branch to update
 
 publish_mode: editorial_workflow
