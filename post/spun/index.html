@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Spun</title>
-  <meta property="og:title" content="Spun" />
-  <meta name="twitter:title" content="Spun" />
-  <meta name="description" content="Out">
-  <meta property="og:description" content="Out">
-  <meta name="twitter:description" content="Out">
+  <title>ES6 observations</title>
+  <meta property="og:title" content="ES6 observations" />
+  <meta name="twitter:title" content="ES6 observations" />
+  <meta name="description" content="Syntax goes a long way.">
+  <meta property="og:description" content="Syntax goes a long way.">
+  <meta name="twitter:description" content="Syntax goes a long way.">
   <meta name="author" content="David Bird"/>
   <link href='https://davenull.us/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://davenull.us/img/avatar-icon.png" />
@@ -139,10 +139,10 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Spun</h1>
+              <h1>ES6 observations</h1>
                 
                   
-                    <h2 class="post-subheading">Out</h2>
+                    <h2 class="post-subheading">Syntax goes a long way.</h2>
                   
                 
                 
@@ -166,8 +166,22 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Hello, I am spun the fuck out.</p>
+        <p>In the Javascript landscape, things change often.</p>
 
+<p>Atypically, ES6 (EMCA Script 2015) makes large syntactic changes.</p>
+
+<p>One place this can have a major impact is with async tasks.
+ The .then() function is magical, letting you write code that handles async tasks without the effort required in ES5</p>
+
+<p></p>
+
+<p>In this small example, we will be fetching JSON data from the GitHub JSON API.</p>
+
+<pre><code>  fetch('https://api.github.com/users/octocat/orgs')
+  .then(response =&gt; return response.json())
+</code></pre>
+
+<p>This is all that is required to use the fetch API to asynchronously download a json feed from github, and set it up for processing. Compared to other methods that require complex setup, and, in many cases, construction of a downloader, the fetch API combined with .this() in ES6 makes life much more simple.</p>
       </article>
 
       <ul class="pager blog-pager">
