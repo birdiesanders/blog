@@ -177,9 +177,10 @@
 
 <p>In this small example, we will be fetching JSON data from the GitHub JSON API.</p>
 
-<pre><code>  fetch('https://api.github.com/users/octocat/orgs')
-  .then(response =&gt; return response.json())
-</code></pre>
+<div class="highlight"><pre><code class="language-go" data-lang="go"><span></span><span class="lineno">1 </span>  <span class="nx">fetch</span><span class="p">(</span><span class="err">&#39;</span><span class="nx">https</span><span class="p">:</span><span class="c1">//api.github.com/users/octocat/orgs&#39;)</span>
+<span class="lineno">2 </span><span class="hll">  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+</span></code></pre></div>
+
 
 <p>This is all that is required to use the fetch API to asynchronously download a json feed from github, and set it up for processing. Compared to other methods that require complex setup, and, in many cases, construction of a downloader, the fetch API combined with .this() in ES6 makes life much more simple.</p>
       </article>
