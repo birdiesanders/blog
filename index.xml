@@ -7,18 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>dave@davenull.us (David Bird)</managingEditor>
     <webMaster>dave@davenull.us (David Bird)</webMaster>
-    <lastBuildDate>Tue, 23 May 2017 00:40:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 May 2017 00:56:38 +0000</lastBuildDate>
     
 	<atom:link href="https://davenull.us/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test</title>
-      <link>https://davenull.us/post/test/</link>
-      <pubDate>Tue, 23 May 2017 00:40:33 +0000</pubDate>
+      <title>For the love of Ubiquiti</title>
+      <link>https://davenull.us/post/for-the-love-of-ubiquiti/</link>
+      <pubDate>Tue, 23 May 2017 00:56:38 +0000</pubDate>
       <author>dave@davenull.us (David Bird)</author>
-      <guid>https://davenull.us/post/test/</guid>
-      <description>test</description>
+      <guid>https://davenull.us/post/for-the-love-of-ubiquiti/</guid>
+      <description>&lt;p&gt;There are few pieces of gear in this world that excite me as much as Ubitquiti&amp;rsquo;s long-range wireless products.&lt;/p&gt;
+
+&lt;p&gt;For ~$100, you can have a miles-long point-to-point link that will carry data far faster than the money should allow.&lt;/p&gt;
+
+&lt;p&gt;This post gives overviews for a few of the projects I have completed using their gear.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
