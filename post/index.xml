@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>dave@davenull.us (David Bird)</managingEditor>
     <webMaster>dave@davenull.us (David Bird)</webMaster>
-    <lastBuildDate>Tue, 23 May 2017 00:56:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 May 2017 01:08:25 +0000</lastBuildDate>
     
 	<atom:link href="https://davenull.us/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test2</title>
+      <link>https://davenull.us/post/2017-05-22-test2/</link>
+      <pubDate>Tue, 23 May 2017 01:08:25 +0000</pubDate>
+      <author>dave@davenull.us (David Bird)</author>
+      <guid>https://davenull.us/post/2017-05-22-test2/</guid>
+      <description>sdfafasf</description>
+    </item>
     
     <item>
       <title>For the love of Ubiquiti</title>
