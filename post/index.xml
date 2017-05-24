@@ -7,34 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>dave@davenull.us (David Bird)</managingEditor>
     <webMaster>dave@davenull.us (David Bird)</webMaster>
-    <lastBuildDate>Tue, 23 May 2017 01:08:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2017 18:04:19 +0000</lastBuildDate>
     
 	<atom:link href="https://davenull.us/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>test2</title>
-      <link>https://davenull.us/post/2017-05-22-test2/</link>
-      <pubDate>Tue, 23 May 2017 01:08:25 +0000</pubDate>
-      <author>dave@davenull.us (David Bird)</author>
-      <guid>https://davenull.us/post/2017-05-22-test2/</guid>
-      <description>sdfafasf</description>
-    </item>
-    
-    <item>
-      <title>For the love of Ubiquiti</title>
-      <link>https://davenull.us/post/for-the-love-of-ubiquiti/</link>
-      <pubDate>Tue, 23 May 2017 00:56:38 +0000</pubDate>
-      <author>dave@davenull.us (David Bird)</author>
-      <guid>https://davenull.us/post/for-the-love-of-ubiquiti/</guid>
-      <description>&lt;p&gt;There are few pieces of gear in this world that excite me as much as Ubitquiti&amp;rsquo;s long-range wireless products.&lt;/p&gt;
-
-&lt;p&gt;For ~$100, you can have a miles-long point-to-point link that will carry data far faster than the money should allow.&lt;/p&gt;
-
-&lt;p&gt;This post gives overviews for a few of the projects I have completed using their gear.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>ES6 observations</title>
@@ -53,17 +29,12 @@
     </item>
     
     <item>
-      <title>Changing my approach</title>
-      <link>https://davenull.us/post/modifications/</link>
+      <title>test</title>
+      <link>https://davenull.us/post/test/</link>
       <pubDate>Mon, 22 May 2017 12:02:00 -0500</pubDate>
       <author>dave@davenull.us (David Bird)</author>
-      <guid>https://davenull.us/post/modifications/</guid>
-      <description>&lt;p&gt;We have all started blogs. I give up on all of mine. This is the
- start of me committing to creating a catalogue of my endeavors.&lt;/p&gt;
-
-&lt;p&gt;Thank you to all who follow along.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://davenull.us/post/test/</guid>
+      <description>This is just a test</description>
     </item>
     
   </channel>
