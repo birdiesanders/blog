@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://davenull.us/post/for-the-love-of-ubiquiti/</loc>
+    <lastmod>2017-05-23T00:56:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://davenull.us/page/about/</loc>
     <lastmod>2017-05-22T18:04:19+00:00</lastmod>
   </url>
@@ -13,13 +18,13 @@
   </url>
   
   <url>
-    <loc>https://davenull.us/post/test/</loc>
+    <loc>https://davenull.us/post/modifications/</loc>
     <lastmod>2017-05-22T12:02:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://davenull.us/</loc>
-    <lastmod>2017-05-22T18:04:19+00:00</lastmod>
+    <lastmod>2017-05-23T00:56:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +41,7 @@
   
   <url>
     <loc>https://davenull.us/post/</loc>
-    <lastmod>2017-05-22T18:04:19+00:00</lastmod>
+    <lastmod>2017-05-23T00:56:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
