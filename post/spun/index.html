@@ -22,7 +22,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Birdie!!" />
 
-  <meta name="generator" content="Hugo 0.22-DEV" />
+  <meta name="generator" content="Hugo 0.21" />
   <link rel="canonical" href="https://davenull.us/post/spun/" />
   <link rel="alternate" href="https://davenull.us/index.xml" type="application/rss+xml" title="Birdie!!">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -177,9 +177,15 @@
 
 <p>In this small example, we will be fetching JSON data from the GitHub JSON API.</p>
 
+<<<<<<< HEAD
 
   fetch('https://api.github.com/users/octocat/orgs')
   .then(response => return response.json())
+=======
+<div class="highlight"><pre><code class="language-go" data-lang="go"><span></span><span class="lineno">1 </span>  <span class="nx">fetch</span><span class="p">(</span><span class="err">&#39;</span><span class="nx">https</span><span class="p">:</span><span class="c1">//api.github.com/users/octocat/orgs&#39;)</span>
+<span class="lineno">2 </span><span class="hll">  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+</span></code></pre></div>
+>>>>>>> 08f1a97f19f24c77270fd7cf0d911f8fd3b2d3ce
 
 
 <p>This is all that is required to use the fetch API to asynchronously download a json feed from github, and set it up for processing. Compared to other methods that require complex setup, and, in many cases, construction of a downloader, the fetch API combined with .this() in ES6 makes life much more simple.</p>
@@ -309,7 +315,7 @@
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.22-DEV</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          <a href="http://gohugo.io">Hugo v0.21</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
           
         </p>
       </div>
