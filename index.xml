@@ -67,5 +67,16 @@ I am the lead developer/engineer for the Soapbox Alert System, and creator of th
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Cloud Hopping</title>
+      <link>https://abusing.technology/post/cloudsigma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/post/cloudsigma/</guid>
+      <description>&lt;p&gt;I have been a long-time fan of VPS products, starting with my first taste of the cloud via Linode back in 2008 or so. Things have moved along rapidly since then, with many new providers, including the likes of Google and Microsoft, offering every faster, cheaper, and better products.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
