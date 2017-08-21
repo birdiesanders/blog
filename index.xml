@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>dave@abusing.technology (David Bird)</managingEditor>
     <webMaster>dave@abusing.technology (David Bird)</webMaster>
-    <lastBuildDate>Tue, 23 May 2017 00:56:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 10:30:44 -0500</lastBuildDate>
     
 	<atom:link href="https://abusing.technology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Puff</title>
+      <link>https://abusing.technology/post/thepuff/</link>
+      <pubDate>Mon, 21 Aug 2017 10:30:44 -0500</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/post/thepuff/</guid>
+      <description>&lt;p&gt;Over the years, I have run various VPS&amp;rsquo;s and dedicated servers for my projects, both at home and at work. The only thing that has changed faster than what I use them for is how many places now offer VPS&amp;rsquo;s, know in more affectionate terms as Cloud servers.&lt;/p&gt;
+
+&lt;p&gt;I began my tinkering with hosted servers from Linode, a company that still offers competitive products at great pricing. Since then, Mid-2008ish, the market has exploded. After being shown the way by Amazon, the likes of Google and Microsoft have become major players in the cloud infrastructure market. Rackspace joined the game with their cloud platform, Vultr popped up, OVH somehow didn&amp;rsquo;t fall apart, and everything has gotten better and better. Every platform has it&amp;rsquo;s niche; Linode is simple and affordable, Azure is the Land of Windows, Vultr is cheap and feature filled.&lt;/p&gt;
+
+&lt;p&gt;Recently, I discovered CloudSigma, as I was looking for a cloud that I could easily install pfSense from scratch, allowing me to have a VPN to my little cloud, which I refer to as &amp;ldquo;The Puff&amp;rdquo;. The Puff is a concept that I have had for a while, a small group of cloud servers in a virtual LAN, with a router/VPN gateway in front. This allows me to have the same amount of control I have in my local network as I do in my cloud, while giving me secure access to all the resources in the cloud without exposing them to the public Internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>For the love of Ubiquiti</title>
@@ -63,17 +78,6 @@ I am the lead developer/engineer for the Soapbox Alert System, and creator of th
  start of me committing to creating a catalogue of my endeavors.&lt;/p&gt;
 
 &lt;p&gt;Thank you to all who follow along.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Cloud Hopping</title>
-      <link>https://abusing.technology/post/cloudsigma/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>dave@abusing.technology (David Bird)</author>
-      <guid>https://abusing.technology/post/cloudsigma/</guid>
-      <description>&lt;p&gt;I have been a long-time fan of VPS products, starting with my first taste of the cloud via Linode back in 2008 or so. Things have moved along rapidly since then, with many new providers, including the likes of Google and Microsoft, offering every faster, cheaper, and better products.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
