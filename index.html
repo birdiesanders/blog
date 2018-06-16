@@ -1,422 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+	<title>
+	Designing peace of mind.
 
-  <title>Abusing Technology</title>
-  <meta property="og:title" content="Abusing Technology" />
-  <meta name="twitter:title" content="Abusing Technology" />
-  <meta name="author" content="David Bird"/>
-  <link href='https://abusing.technology/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://abusing.technology/img/react.jpg" />
-  <meta name="twitter:image" content="https://abusing.technology/img/react.jpg" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@davenull" />
-  <meta name="twitter:creator" content="@davenull" />
-  <meta property="og:url" content="https://abusing.technology/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Abusing Technology" />
-
-  <meta name="generator" content="Hugo 0.22-DEV" />
-  <link rel="canonical" href="https://abusing.technology/" />
-  <link rel="alternate" href="https://abusing.technology/index.xml" type="application/rss+xml" title="Abusing Technology">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://abusing.technology/css/main.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://abusing.technology/css/pygment_highlights.css" />
-  <link rel="stylesheet" href="https://abusing.technology/css/highlight.min.css" />
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index,follow">
+	<base href="https://abusing.technology/">
+	<link rel="canonical" href="https://abusing.technology/"> 
+	<link rel="alternate" type="application/atom" 
+	      href="https://abusing.technology/atom.xml" title="Designing peace of mind."> 
+	<link rel="alternate" type="application/rss" 
+	      href="https://abusing.technology/rss.xml" title="Designing peace of mind.">
+	<link rel="preload" href="https://abusing.technology/css/smorg.min.css" as="style">
+	<link rel="stylesheet" href="https://abusing.technology/css/smorg.min.css">
+	<meta name="generator" content="Hugo 0.42.1" />
 
 </head>
+<body> 
+	
 
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://abusing.technology/">Abusing Technology</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
-          
-        
-          
-            <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">Projects</a>
-              <div class="navlinks-children">
-                
-                  <a href="/post/2017-03-07-bigimg-sample">Slater</a>
-                
-              </div>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-
-        
-
-        
-          <li>
-            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
-              <span class="hidden-sm hidden-md hidden-lg">Search</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="Abusing Technology" href="https://abusing.technology/">
-            <img class="avatar-img" src="https://abusing.technology/img/react.jpg" alt="Abusing Technology" />
-          </a>
-        
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
-
-  <div id="modalSearch" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Search Abusing Technology</h4>
-        </div>
-        <div class="modal-body">
-          <gcse:search></gcse:search>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-    
-  
-  
-  
+	<section class="section hero is-fullheight" itemscope itemtype="http://schema.org/HomePage">
+	<div class="hero-head">
+		
+	<nav class="navbar" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item has-text-white-ter" 
+				   href="https://abusing.technology/"><span class="has-text-weight-bold"><span class="has-text-weight-bold">abusing.<span class="has-text-danger">technology</span></span></span>
+</a>
+				<div class="navbar-burger burger" data-target="navMenu">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			</div>
+			<div class="navbar-menu" id="navMenu">
+				<div class="navbar-end">
+					
+	<div class="navbar-item has-dropdown is-hoverable">
+		
+	<a class="navbar-link" href="https://abusing.technology/about/">About</a>
+<div class="navbar-dropdown">
+	<a class="navbar-item" href="https://abusing.technology/about/contact/">Contact Us</a>
+</div>
+	</div>
+	<div class="navbar-item has-dropdown is-hoverable">
+		
+	<a class="navbar-link" href="https://abusing.technology/services/">Services</a>
+<div class="navbar-dropdown">
+	<a class="navbar-item" href="https://abusing.technology/services/netarch/">Network Architecture Consultation</a>
+</div>
+	</div>
+	<a class="navbar-item" href="https://abusing.technology/post/">Blog</a>
 
 
 
 
-  
+				</div>
+			</div>
+		</div>
+	</nav>
 
-  <header class="header-section ">
-    
-    <div class="intro-header no-img">
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Abusing Technology</h1>
-                
-                  
-                    <hr class="small">
-                    <span class="page-subheading">My brain hurts...</span>
-                  
-                
-                
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+	</div>
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-8 is-offset-2 has-text-centered">
+					<h1 class="title"><span class="has-text-weight-bold"><span class="has-text-weight-bold">abusing.<span class="has-text-danger">technology</span></span></span>
+</h1>
+					<h2 class="subtitle">
+						Keeping the complexity out of networking.
+						
+					</h2>
+					<div class="content">
+					<p><a href="/about/">abusing.technology</a> is a consultation and implementation team, offering you
+everything required to make your technology work for you, no matter what.</p>
 
+					</div>
+					<div class="columns">
+						<div class="column">
+							<h3 class="subtitle has-text-primary is-marginless">Posts</h3>
+							<ul>
+							
+							<li><a href="https://abusing.technology/post/how-we-host/"><span class="icon">✎</span>How We Host</a></li>
+							
+							<li><a href="https://abusing.technology/post/">More posts<span class="icon">➤</span></a></li>
+							</ul>
+						</div>
+						<div class="column">
+							<h3 class="subtitle has-text-primary is-marginless">Projects</h3>
+							<ul>
+							
+							<li><a href="https://abusing.technology/project/">More projects<span class="icon">➤</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hero-foot">
 
-    
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-              <a href="https://abusing.technology/post/thepuff/">
-                <h2 class="post-title">The Puff</h2>
-                
-                  <h3 class="post-subtitle">
-                  My little cloud away from home.
-                  </h3>
-                
-              </a>
-
-              <span class="post-meta">
-  Posted on August 21, 2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  <p>Over the years, I have run various VPS&rsquo;s and dedicated servers for my projects, both at home and at work. The only thing that has changed faster than what I use them for is how many places now offer VPS&rsquo;s, know in more affectionate terms as Cloud servers.</p>
-
-<p>I began my tinkering with hosted servers from Linode, a company that still offers competitive products at great pricing. Since then, Mid-2008ish, the market has exploded. After being shown the way by Amazon, the likes of Google and Microsoft have become major players in the cloud infrastructure market.
-  Rackspace joined the game with their cloud platform, Vultr popped up, OVH somehow didn&rsquo;t fall apart, and everything has gotten better and better. Every platform has it&rsquo;s niche; Linode is simple and affordable, Azure is the Land of Windows, Vultr is cheap and feature filled.</p>
-
-<p>Recently, I discovered CloudSigma, as I was looking for a cloud that I could easily install pfSense from scratch, allowing me to have a VPN to my little cloud, which I refer to as &ldquo;The Puff&rdquo;. The Puff is a concept that I have had for a while, a small group of cloud servers in a virtual LAN, with a router/VPN gateway in front. This allows me to have the same amount of control I have in my local network as I do in my cloud, while giving me secure access to all the resources in the cloud without exposing them to the public Internet.</p>
-
-<p></p>
-                  <a href="https://abusing.technology/post/thepuff/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                  #<a href="/tags/cloud">cloud</a>&nbsp;
-                
-                  #<a href="/tags/vpn">VPN</a>&nbsp;
-                
-                  #<a href="/tags/networking">Networking</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://abusing.technology/post/for-the-love-of-ubiquiti/">
-                <h2 class="post-title">For the love of Ubiquiti</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Posted on May 23, 2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  <p>There are few pieces of gear in this world that excite me as much as Ubitquiti&rsquo;s long-range wireless products.</p>
-
-<p>For ~$100, you can have a miles-long point-to-point link that will carry data far faster than the money should allow.</p>
-
-<p>This post gives overviews for a few of the projects I have completed using their gear.</p>
-
-<p></p>
-                  <a href="https://abusing.technology/post/for-the-love-of-ubiquiti/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://abusing.technology/post/spun/">
-                <h2 class="post-title">ES6 observations</h2>
-                
-                  <h3 class="post-subtitle">
-                  Syntax goes a long way.
-                  </h3>
-                
-              </a>
-
-              <span class="post-meta">
-  Posted on May 22, 2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  <p>In the Javascript landscape, things change often.</p>
-
-<p>Atypically, ES6 (EMCA Script 2015) makes large syntactic changes.</p>
-
-<p>One place this can have a major impact is with async tasks.
- The .then() function is magical, letting you write code that handles async tasks without the effort required in ES5</p>
-
-<p></p>
-                  <a href="https://abusing.technology/post/spun/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://abusing.technology/post/modifications/">
-                <h2 class="post-title">Changing my approach</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Posted on May 22, 2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  <p>We have all started blogs. I give up on all of mine. This is the
- start of me committing to creating a catalogue of my endeavors.</p>
-
-<p>Thank you to all who follow along.</p>
-
-<p></p>
-                  <a href="https://abusing.technology/post/modifications/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-            </article>
-          
-        </div>
-
-        
-      </div>
-    </div>
-  </div>
-
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:dave@abusing.technology" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/mallocsizeofint" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/birdiesanders" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/davenull" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://reddit.com/u/the_real_davenull" title="Reddit">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/1657683/davenull" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://soundcloud.com/birdiesanders" title="SoundCloud">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            <a href="https://abusing.technology/index.xml" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          David Bird
-          &nbsp;&bull;&nbsp;
-          2017
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="https://abusing.technology/">Abusing Technology</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.22-DEV</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
-    </div>
+<footer class="footer">
+  <div class="container content">
+	<div class="has-text-centered">
+		<p>Making tech misbehave since 2018.
+			  
+		   <span class="has-text-weight-bold">abusing.<span class="has-text-danger">technology</span></span>
+			   
+		   </p>
+		<hr>
+		<p class="has-text-grey is-size-7">
+		 502-509-3230<br>
+			   
+		 2018 &copy; Abusing Technology<br>
+			   
+		</p>
+	</div>
   </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://abusing.technology/js/main.js"></script>
-<script src="https://abusing.technology/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> renderMathInElement(document.body); </script>
+
+	</div>
+</section>
+
+ 
+	
+
+<script type="application/ld+json">
+{ 
+	"@context": "http://schema.org", 
+	"@type": "WebSite",
+	"mainEntityOfPage": {
+		"@type": "WebPage", 
+		"@id": "https://abusing.technology/" 
+	},
+	"name": "Designing peace of mind.", 
+	
+	"author": { 
+		"@type": "Person", 
+		 "name": "David Bird",
+		"email": "dave@abusing.technology"
+	},
+	"publisher": {
+		 "name": "Name of organization or person",
+		 "type": "Organization"
+		,
+		"logo": {
+			"@type": "ImageObject",
+			"url": "url to logo image" 
+		}
+	}
+}
+</script>
 
 
 
 
 <script>
-  (function() {
-    var cx = '001100398426909687234:qreziejv2i8';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+document.addEventListener('DOMContentLoaded', function () {
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
 </script>
+ 
 
-
-  </body>
+</body>
 </html>
-

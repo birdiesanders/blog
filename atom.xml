@@ -1,0 +1,62 @@
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>About Us on Designing peace of mind.</title>
+	<link href="https://abusing.technology/atom.xml" rel="self"/>
+	<link href="https://abusing.technology/"/>
+	<generator uri="https://gohugo.io/" version=".Hugo.Version">Hugo -- gohugo.io</generator>
+	<updated>2018-03-01T00:00:00+00:00</updated>
+	<id>https://abusing.technology/</id>
+	<author>
+		<name>David Bird</name>
+		<email>dave@abusing.technology</email>
+	</author>
+  <entry>
+	<title>Contact Us</title>
+    <link href="https://abusing.technology/about/contact/"/>
+	<id>https://abusing.technology/about/contact/</id>
+    <published>2018-04-08T09:16:58-08:00</published>
+    <updated>2018-04-08T09:16:58-08:00</updated>
+	<content type="html"><![CDATA[
+We can be contacted at 502-509-3230 10A-4P Central Time, Monday - Friday, or by email at info@abusing.technology at any time.
+]]></content>
+  </entry>
+	
+  <entry>
+	<title>How We Host</title>
+    <link href="https://abusing.technology/post/how-we-host/"/>
+	<id>https://abusing.technology/post/how-we-host/</id>
+    <published>2018-04-25T11:19:30-05:00</published>
+    <updated>2018-04-25T11:19:30-05:00</updated>
+	<content type="html"><![CDATA[
+<p>Welcome to the new abusing.technology front-page! Today, I want to give you some insight into how we host our website. I will detail the software used to generate the site, the docker configurations, and how the infrastructure itself is built. This will involve a short dive into Dockerfiles, kubernetes, rancher, tectonic, HAProxy, and Let&rsquo;s Encrypt&rsquo;s new wildcard certificates. We won&rsquo;t cover anything in depth, instead focusing on the glue between the tech will give you a more clear picture of how to use these technologies in your life.</p>
+
+<p>The goodies are after the jump!</p>
+
+]]></content>
+  </entry>
+	
+  <entry>
+	<title>Network Architecture Consultation</title>
+    <link href="https://abusing.technology/services/netarch/"/>
+	<id>https://abusing.technology/services/netarch/</id>
+    <published>2018-03-03T09:17:17-08:00</published>
+    <updated>2018-03-03T09:17:17-08:00</updated>
+	<content type="html"><![CDATA[
+ We offer full-service network consultation, from simple architectural advice to hardware selection and install implementation.
+Examples  Topology design Subnetting VLAN Distribution Datacenter Architecture  
+]]></content>
+  </entry>
+	
+  <entry>
+	<title>401 Unauthorized</title>
+    <link href="https://abusing.technology/401/"/>
+	<id>https://abusing.technology/401/</id>
+    <published>2017-03-23T00:00:00+00:00</published>
+    <updated>2017-03-23T00:00:00+00:00</updated>
+	<content type="html"><![CDATA[
+A user name and password is required.
+You&rsquo;ve attempted to visit a section of the website reserved for authorized users.
+]]></content>
+  </entry>
+	
+</feed>

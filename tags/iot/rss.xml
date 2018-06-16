@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iot on Please, don&#39;t hurt my computer.</title>
+    <link>https://abusing.technology/tags/iot/</link>
+    <description>Recent content in Iot on Please, don&#39;t hurt my computer.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@abusing.technology (David Bird)</managingEditor>
+    <webMaster>dave@abusing.technology (David Bird)</webMaster>
+    <copyright>2018 &amp;copy; Abusing Technology</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 09:17:17 -0800</lastBuildDate>
+    
+	<atom:link href="https://abusing.technology/tags/iot/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blorg Bread Baker</title>
+      <link>https://abusing.technology/project/blorg-bread-machine/</link>
+      <pubDate>Sat, 03 Mar 2018 09:17:17 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/project/blorg-bread-machine/</guid>
+      <description>The hand-crafted Blorg Bread Baker&amp;trade; enhances any kitchen. Produced from 100% post-consumer recycled materials you&amp;rsquo;ll never once think&amp;hellip; wait a minute, I&amp;rsquo;m baking my bread in other people&amp;rsquo;s refuse.</description>
+    </item>
+    
+  </channel>
+</rss>

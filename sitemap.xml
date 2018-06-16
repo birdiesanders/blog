@@ -3,34 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://abusing.technology/post/thepuff/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
+    <loc>https://abusing.technology/about/contact/</loc>
+    <lastmod>2018-04-08T09:16:58-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://abusing.technology/post/for-the-love-of-ubiquiti/</loc>
-    <lastmod>2017-05-23T00:56:38+00:00</lastmod>
+    <loc>https://abusing.technology/post/how-we-host/</loc>
+    <lastmod>2018-04-25T11:19:30-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://abusing.technology/page/about/</loc>
-    <lastmod>2017-05-22T18:04:19+00:00</lastmod>
+    <loc>https://abusing.technology/about/</loc>
+    <lastmod>2018-03-07T02:16:58-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://abusing.technology/post/spun/</loc>
-    <lastmod>2017-05-22T18:04:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abusing.technology/post/modifications/</loc>
-    <lastmod>2017-05-22T12:02:00-05:00</lastmod>
+    <loc>https://abusing.technology/services/netarch/</loc>
+    <lastmod>2018-03-03T09:17:17-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://abusing.technology/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abusing.technology/401/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -39,38 +38,38 @@
   </url>
   
   <url>
-    <loc>https://abusing.technology/tags/cloud/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://abusing.technology/tags/networking/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://abusing.technology/page/</loc>
-    <lastmod>2017-05-22T18:04:19+00:00</lastmod>
+    <lastmod>2018-03-03T09:17:17-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://abusing.technology/post/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
+    <lastmod>2018-04-25T11:19:30-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abusing.technology/tags/service/</loc>
+    <lastmod>2018-03-03T09:17:17-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abusing.technology/services/</loc>
+    <lastmod>2018-03-03T09:17:17-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abusing.technology/categories/services/</loc>
+    <lastmod>2018-03-03T09:17:17-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://abusing.technology/tags/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://abusing.technology/tags/vpn/</loc>
-    <lastmod>2017-08-21T10:30:44-05:00</lastmod>
+    <lastmod>2018-03-03T09:17:17-08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+	<title>
+		How We Host - Designing peace of mind.
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index,follow">
+	<base href="https://abusing.technology/">
+	<link rel="canonical" href="https://abusing.technology/post/how-we-host/">
+	<link rel="preload" href="https://abusing.technology/css/smorg.min.css" as="style">
+	<link rel="stylesheet" href="https://abusing.technology/css/smorg.min.css">
+	<meta name="generator" content="Hugo 0.42.1" />
+
+</head>
+<body>
+		
+	<nav class="navbar" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item has-text-white-ter" 
+				   href="https://abusing.technology/"><span class="has-text-weight-bold"><span class="has-text-weight-bold">abusing.<span class="has-text-danger">technology</span></span></span>
+</a>
+				<div class="navbar-burger burger" data-target="navMenu">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			</div>
+			<div class="navbar-menu" id="navMenu">
+				<div class="navbar-end">
+					
+	<div class="navbar-item has-dropdown is-hoverable">
+		
+	<a class="navbar-link" href="https://abusing.technology/about/">About</a>
+<div class="navbar-dropdown">
+	<a class="navbar-item" href="https://abusing.technology/about/contact/">Contact Us</a>
+</div>
+	</div>
+	<div class="navbar-item has-dropdown is-hoverable">
+		
+	<a class="navbar-link" href="https://abusing.technology/services/">Services</a>
+<div class="navbar-dropdown">
+	<a class="navbar-item" href="https://abusing.technology/services/netarch/">Network Architecture Consultation</a>
+</div>
+	</div>
+	<a class="navbar-item" href="https://abusing.technology/post/">Blog</a>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</nav>
+<section class="section" itemscope itemtype="http://schema.org/WebPage">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8 is-offset-2">
+				<article class="content">
+					<h1 class="title is-3">How We Host</h1>
+					<p class="subtitle is-6 has-text-grey">
+					<em>Posted 
+<time datetime="2018-04-25">25 April 2018</time></em></p>
+<p>Welcome to the new abusing.technology front-page! Today, I want to give you some insight into how we host our website. I will detail the software used to generate the site, the docker configurations, and how the infrastructure itself is built. This will involve a short dive into Dockerfiles, kubernetes, rancher, tectonic, HAProxy, and Let&rsquo;s Encrypt&rsquo;s new wildcard certificates. We won&rsquo;t cover anything in depth, instead focusing on the glue between the tech will give you a more clear picture of how to use these technologies in your life.</p>
+
+<p>The goodies are after the jump!</p>
+
+<p></p>
+
+<h2 id="what-even-are-these-things-what-we-glued-together">What even are these things? (What we glued together.)</h2>
+
+<p>Our infrastructure has become what I call &ldquo;The Hipster&rsquo;s List of Infrastructure Technologies.&rdquo; You could go to Hacker News, find the most used words, I bet you the list matches almost one-to-one.</p>
+
+<p>Joking aside, the setup is as follows. We use 2 kubernetes clusters, which reside on the same LAN, and share a loadbalancer. The LB uses LE certs, and provides an HTTP and HTTPS frontend, as well as a few TCP services on the network. HTTP services are simple to configure, you add a backend pointing to the kubernetes worker pools, add an ACL to the front-end, and reload HAProxy. This keeps everything loadbalanced, with stick-tables, and does full layer-7 service healthchecking, so I can avoid having to spend too much time monitoring things.</p>
+
+<p>The virtualization hosts are connected directly to the core network switch, as I like to keep the cable count between machines as close to zero as possible. Using virtualized nodes and masters allows easy backup, and snapshots taken before an untested change can save time in recovery if things break. (News Flash: Things are going to break.) I won&rsquo;t go into detail on how the hosts are set up, as it doesn&rsquo;t really matter outside of these hosts and their workload.</p>
+
+<h5 id="kubernetes-the-guy-driving-the-boat">Kubernetes &mdash; The guy driving the boat</h5>
+
+<p>Our k8s clusters are built in two very different ways, but function mostly the same way. The first cluster, with bigger nodes, was built using CoreOS&rsquo;s Tectonic Kuberntes distro. Persistant volumes are provided via Rook.io, allowing PVC&rsquo;s to be requested on the fly, and the data is replicated to all the nodes without further effort, allowing you to move your containers around the cluster very quickly, even if they have persistant data. The second cluster is a set of Ubuntu virtual machines, with Rancher 2.0 as the k8s distro. Rancher 2.0 allows you to provision a cluster in numerous ways, be it cloud providers, VMWare, OpenStack, etc, or in our case, a custom host running the rancher agent in docker, which provisions the k8s resources on the node to utilize it as a worker. In the end, both clusters work pretty much the same, the differences mainly being in the Tectonic-specific setup, the Ingress controller in particular. Rancher leaves you with a mostly-vanilla Kubernetes install.</p>
+
+<p>Kubernetes allows us to forget about the infrastructure, and focus on what we need for a service to function. The majority of our deployments are stateless containers, and the focus is entirely on having replicas available, allowing us to have mostly single YAML files for each service. Again, this lowers the amount of man-power required to keep the network healthy, as a full rebuild of the cluster can be accomplished in a few short kubectl commands to reprovision identical services. The current Tectonic cluster went from baremetal to serving web content in ~25 minutes, and has been up since without issue. The Rancher cluster has been in heavy flux, however, as it has been a testing platform for the Tech Previews of Rancher 2.0.</p>
+					
+
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+  <div class="container content">
+	<div class="has-text-centered">
+		<p>Making tech misbehave since 2018.
+			  
+		   <span class="has-text-weight-bold">abusing.<span class="has-text-danger">technology</span></span>
+			   
+		   </p>
+		<hr>
+		<p class="has-text-grey is-size-7">
+		 502-509-3230<br>
+			   
+		 2018 &copy; Abusing Technology<br>
+			   
+		</p>
+	</div>
+  </div>
+</footer>
+
+
+<script type="application/ld+json">
+{ 
+	"@context": "http://schema.org", 
+	"@type": "WebPage",
+	"@id": "https://abusing.technology/post/how-we-host/",
+	"name": "How We Host",
+}
+</script>
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
+</script>
+ 
+
+</body>
+</html>

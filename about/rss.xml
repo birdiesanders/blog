@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Designing peace of mind.</title>
+    <link>https://abusing.technology/about/</link>
+    <description>Recent content in About on Designing peace of mind.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@abusing.technology (David Bird)</managingEditor>
+    <webMaster>dave@abusing.technology (David Bird)</webMaster>
+    <copyright>2018 &amp;copy; Abusing Technology</copyright>
+    <lastBuildDate>Wed, 07 Mar 2018 02:16:58 -0800</lastBuildDate>
+    
+	<atom:link href="https://abusing.technology/about/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://abusing.technology/about/contact/</link>
+      <pubDate>Sun, 08 Apr 2018 09:16:58 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/about/contact/</guid>
+      <description>We can be contacted at 502-509-3230 10A-4P Central Time, Monday - Friday, or by email at info@abusing.technology at any time.</description>
+    </item>
+    
+  </channel>
+</rss>

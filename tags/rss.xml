@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Designing peace of mind.</title>
+    <link>https://abusing.technology/tags/</link>
+    <description>Recent content in Tags on Designing peace of mind.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@abusing.technology (David Bird)</managingEditor>
+    <webMaster>dave@abusing.technology (David Bird)</webMaster>
+    <copyright>2018 &amp;copy; Abusing Technology</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 09:17:17 -0800</lastBuildDate>
+    
+	<atom:link href="https://abusing.technology/tags/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Networking</title>
+      <link>https://abusing.technology/tags/networking/</link>
+      <pubDate>Sat, 03 Mar 2018 09:17:17 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>https://abusing.technology/tags/service/</link>
+      <pubDate>Sat, 03 Mar 2018 09:17:17 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/tags/service/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service on Designing peace of mind.</title>
+    <link>https://abusing.technology/tags/service/</link>
+    <description>Recent content in Service on Designing peace of mind.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@abusing.technology (David Bird)</managingEditor>
+    <webMaster>dave@abusing.technology (David Bird)</webMaster>
+    <copyright>2018 &amp;copy; Abusing Technology</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 09:17:17 -0800</lastBuildDate>
+    
+	<atom:link href="https://abusing.technology/tags/service/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Network Architecture Consultation</title>
+      <link>https://abusing.technology/services/netarch/</link>
+      <pubDate>Sat, 03 Mar 2018 09:17:17 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/services/netarch/</guid>
+      <description> We offer full-service network consultation, from simple architectural advice to hardware selection and install implementation.
+Examples  Topology design Subnetting VLAN Distribution Datacenter Architecture  </description>
+    </item>
+    
+  </channel>
+</rss>

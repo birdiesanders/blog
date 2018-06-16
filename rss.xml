@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Us on Designing peace of mind.</title>
+    <link>https://abusing.technology/</link>
+    <description>Recent content in About Us on Designing peace of mind.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@abusing.technology (David Bird)</managingEditor>
+    <webMaster>dave@abusing.technology (David Bird)</webMaster>
+    <copyright>2018 &amp;copy; Abusing Technology</copyright>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://abusing.technology/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://abusing.technology/about/contact/</link>
+      <pubDate>Sun, 08 Apr 2018 09:16:58 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/about/contact/</guid>
+      <description>We can be contacted at 502-509-3230 10A-4P Central Time, Monday - Friday, or by email at info@abusing.technology at any time.</description>
+    </item>
+    
+    <item>
+      <title>How We Host</title>
+      <link>https://abusing.technology/post/how-we-host/</link>
+      <pubDate>Wed, 25 Apr 2018 11:19:30 -0500</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/post/how-we-host/</guid>
+      <description>&lt;p&gt;Welcome to the new abusing.technology front-page! Today, I want to give you some insight into how we host our website. I will detail the software used to generate the site, the docker configurations, and how the infrastructure itself is built. This will involve a short dive into Dockerfiles, kubernetes, rancher, tectonic, HAProxy, and Let&amp;rsquo;s Encrypt&amp;rsquo;s new wildcard certificates. We won&amp;rsquo;t cover anything in depth, instead focusing on the glue between the tech will give you a more clear picture of how to use these technologies in your life.&lt;/p&gt;
+
+&lt;p&gt;The goodies are after the jump!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Network Architecture Consultation</title>
+      <link>https://abusing.technology/services/netarch/</link>
+      <pubDate>Sat, 03 Mar 2018 09:17:17 -0800</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/services/netarch/</guid>
+      <description> We offer full-service network consultation, from simple architectural advice to hardware selection and install implementation.
+Examples  Topology design Subnetting VLAN Distribution Datacenter Architecture  </description>
+    </item>
+    
+    <item>
+      <title>401 Unauthorized</title>
+      <link>https://abusing.technology/401/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      <author>dave@abusing.technology (David Bird)</author>
+      <guid>https://abusing.technology/401/</guid>
+      <description>A user name and password is required.
+You&amp;rsquo;ve attempted to visit a section of the website reserved for authorized users.</description>
+    </item>
+    
+  </channel>
+</rss>
